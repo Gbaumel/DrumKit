@@ -42,7 +42,7 @@ const ativarDiv = (evento) => {
     }else{
         letra = evento.key.toUpperCase();
     }
-    
+
     const letraPermitida = sons.hasOwnProperty(letra);
     if (letraPermitida) {
         adicionarEfeito(letra);
